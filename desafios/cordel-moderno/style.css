@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: bisque;
+}
+header{
+  background-color: rgb(5, 5, 15);
+}
+
+header h1{
+  text-align: center;
+  color: aliceblue;
+  font-variant: small-caps;
+  padding-top: 70px;
+  font-size: 5.5vw;
+}
+
+header p{
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 70px;
+}
+header a{
+  color: aliceblue; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+section{
+  line-height: 2em;
+}
+
+section.normal{
+  background-color: white;
+  margin: -10px;
+}
+
+
+section.normal h1{
+  padding-left: 95px;
+}
+
+section.imagem p{
+  background-color: rgba(0, 0, 0, 0.296);
+  display: inline-block;
+  color: white;
+}
+
+section.imagem{
+  background-image: url("imagens/cruz.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+footer{
+  background-color: rgb(5, 5, 15);
+  margin: -10px;
+  padding: 5px;
+  color: beige;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  text-decoration: underline;
+}
