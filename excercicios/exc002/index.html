@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerar Imagens</title>
+</head>
+<body>
+  <h1>Gerador de imagens dinamicas</h1>
+  <p>Esse site vou desenvolver para gerar imagens dinamicas, onde podem ser usados em computadores, tablets e celulares.</p>
+  <picture>
+    <source media="(max-width:730px )" srcset="foto.300.jpg">
+    <source media="(max-width:1030px)" srcset="foto.700.jpg">
+    <img src="foto.1000.jpg" alt="imagem dinamica">
+  </picture>
+  <h1>Reproduzir audio</h1>
+  <p>Reprodução de audio</p>
+  <audio src="midia/opcao.mp3" controls autoplay></audio>
+  <h1>Colocando video</h1>
+  <p>Essa parte é para colocaar videos no meu site</p>
+  <video src="midia/review.mp4" width="200" controls autoplay></video>
+  <h1>Inserindo video do Yotube</h1>
+  <p>Essa parte é para colocar videos do youtube no meu site</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WyA6GscP4DA?si=Hefr1t7by4fdHvpu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

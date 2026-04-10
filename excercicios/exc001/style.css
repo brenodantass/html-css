@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+  background-image: linear-gradient(to right, #BFBFBF, #8AA6A3, #4C5958);
+  background-attachment: fixed;
+  
+  main{
+    text-align: justify;
+    background: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #00000066;
+  
+  div > p{
+    display: none;
+  }
+
+  div > pre{
+    display: none;
+  }
+
+  div:hover > p {
+    display: block;
+    background-color: #07798866;
+
+  }
+
+  div:hover > pre {
+    display: block;
+    background-color: #0b581666;
+    width: 500px;
+  }
+
+  div:hover {
+    color: rgb(22, 11, 11);
+  }
+
+  h1 {
+     font-family: "Protest Revolution", serif;
+    color: #3ca1a1;
+    text-align: center;
+    text-shadow: 3px 3px 10px #215c5c90; 
+    
+  }
+  h2 {
+    background-color: #07798866;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    text-indent: 30px;;
+  }
+} 
+}
