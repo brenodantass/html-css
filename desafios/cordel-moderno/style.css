@@ -1,12 +1,20 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+  --font01: "Architects Daughter", cursive;
+  --font02: "Paassione one", cursive;
+}
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
 body{
-  background-color: bisque;
+  min-height: 200vh;
 }
 header{
   background-color: rgb(5, 5, 15);
@@ -14,10 +22,11 @@ header{
 
 header h1{
   text-align: center;
+  font-family: var(--font02);
   color: aliceblue;
   font-variant: small-caps;
   padding-top: 70px;
-  font-size: 5.5vw;
+  font-size: 4vw;
 }
 
 header p{
@@ -37,35 +46,52 @@ header a:hover{
 }
 
 section{
+  padding: 10vh;
+}
+
+section p{
   line-height: 2em;
+  font-family: var(--font01);
+  font-size: 3vw;
 }
 
 section.normal{
   background-color: white;
-  margin: -10px;
-}
-
-
-section.normal h1{
-  padding-left: 95px;
-}
-
-section.imagem p{
-  background-color: rgba(0, 0, 0, 0.296);
-  display: inline-block;
-  color: white;
 }
 
 section.imagem{
+  box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.44);
+  background-attachment: fixed;
+}
+
+section.imagem > p{
+  background-color: rgba(8, 5, 5, 0.423);
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  box-shadow:  0px 0px 20px black;
+  
+}
+
+section#img1{
   background-image: url("imagens/cruz.jpg");
   background-size: cover;
   background-position: center;
-  
+}
+
+section#img2{
+  background-image: url("imagens/coroa-cruz.jpg");
+  background-size: cover;
+  background-position: left;
+}
+section#img3{
+  background-image: url("imagens/ressuscitou.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 footer{
   background-color: rgb(5, 5, 15);
-  margin: -10px;
   padding: 5px;
   color: beige;
   text-align: center;
@@ -73,6 +99,7 @@ footer{
 footer a{
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 footer a:hover{
   text-decoration: underline;
