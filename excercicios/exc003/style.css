@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+table{
+  width: 500px;
+  border-collapse: collapse;
+}
+
+caption{
+  background-color: rgb(187, 195, 195);
+  font-size: 20px;
+  padding: 10px;
+}
+tbody tr:nth-child(2n){
+  background-color: rgb(145, 147, 151);
+}
+
+thead, tfoot{
+  background-color: rgb(52, 58, 58);
+  color: white;
+}
+
+th, td{
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.num{
+  text-align: right;
+}
