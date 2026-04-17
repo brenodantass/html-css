@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    } 
+    td{
+      border: 2px solid black;
+      width: 40px;
+      height: 20px;
+      padding: 5px;
+      text-align: center;
+    } 
+
+    .filmes th{
+      background-color: rgba(128, 128, 128, 0.523);
+      border: 2px solid black;
+      width: 100px;
+    
+    }
+    .filmes td{
+      border: 2px solid black;
+      text-align: center;
+      width: 200px;
+      
+    }
+
+
+
+  </style>
+
+</head>
+<body>
+  <h1>Listas</h1>
+
+  <table>
+    <tr>
+      <td colspan="4">A</td>
+      <td rowspan="4">B</td>
+    </tr>
+    <tr>
+      <td rowspan="4">C</td>
+      <td>D</td>
+      <td>E</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>H</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>K</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td colspan="5">M</td>
+    </tr>
+
+  </table>
+
+  <table>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td rowspan="2">3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td colspan="3">8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td rowspan="2">10</td>
+      <td colspan="2">11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+    </tr>
+
+    <br>
+    <br>
+
+
+  </table>
+
+  <table class="filmes">
+
+    <br>
+    <br>
+
+
+    <tr>
+      <th>Grupos</th>
+      <th>Nomes</th>
+      <th colspan="3">Filmes</th>
+    </tr>
+
+    <tr>
+      <th rowspan="3">Mulheres</th>
+      <td>Ana Beatriz Santos</td>
+      <td>Alien</td>
+      <td>Rambo</td>
+      <td>Vingadores</td>
+    </tr>
+    <tr>
+      <td>Beatriz Souza</td>
+      <td>Hulk</td>
+      <td>Inception</td>
+      <td>Batman</td>
+    </tr>
+    <tr>
+      <td>Claudia Melo</td>
+      <td>Oblivion</td>
+      <td>Matrix</td>
+      <td>Big Hero</td>
+    </tr>
+    <tr>
+      <th rowspan="3">Homens</th>
+      <td>Breno Gustavo</td>
+      <td>Intocaveis</td>
+      <td>O Drama</td>
+      <td>Os Vingadores</td>
+    </tr>
+    <tr>
+      <td>Hantony Vale</td>
+      <td>Mario Bros</td>
+      <td>Flash</td>
+      <td>Carros</td>
+    </tr>
+    <tr>
+      <td>Jorge Santos</td>
+      <td>Veloses e Furiosos</td>
+      <td>Simpisons</td>
+      <td>Eu Sou a Lenda</td>
+
+    </tr>
+  </table>
+  
+</body>
+</html>
