@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <h1>LOGIN</h1>
+
+  <form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+      <label for="inome">Email</label>
+      <input type="text" name="name" id="iname" placeholder=" Digite seu email " required>
+    </p>
+    <p>
+      <label for="isenha">Senha</label>
+      <input type="password" name="senha" id="isenha" required>
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+
+  <h1>CADASTRO</h1>
+
+  <form action="">
+    <p>
+      <label for="inome">Nome Completo</label>
+      <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+    </p>
+    <p>
+      <label for="idata">Data de Nascimento</label>
+      <input type="date" name="data" id="idata" required>
+    </p>
+    <p>
+      <label for="icel">Contato</label>
+      <input type="tel" name="tel" id="icel" placeholder="(XX) XXXXX-XXXX" required>
+    </p>
+    <p>
+      <label for="icpf">CPF</label>
+      <input type="text" name="cpf" id="icpf" placeholder="Digite seu CPF" required>
+    </p>
+    <p>
+      <label for="aff">pes</label>
+      <input type="search" name="aff" id="aff">
+    </p>
+  </form>
+  
+</body>
+</html>
