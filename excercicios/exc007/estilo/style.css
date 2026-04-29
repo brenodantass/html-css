@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Confifurações gerais */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(47, 103, 192, 0.378); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+h1{
+  color: white;
+  padding: 10px;
+}
