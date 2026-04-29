@@ -70,6 +70,54 @@
         <input type="checkbox" name="num" id="inum3"> <label for="inum3">709.***.***-88</label>
       </fieldset>
   </form>
+
+  <form action="cadastro.php" method="post">
+    <fieldset>
+      <legend>Área</legend>
+      <p>
+        <label for="iestados">Estado: </label>
+        <select name="estados" id="iestados">
+          <option value="" selected>----Escolha----</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceára</option>
+          <option value="PE">Pernambuco</option>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="MG">Minas Gerais</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Cidade</label>
+        <input type="text" name="cidade" id="icidade" list="listcity">
+        <datalist id="listcity">
+          <option value="Natal"> 
+          <option value="Mossoró">
+          <option value="Parnamirin">
+          <option value="Nova Cruz">
+          <option value="Macaiba">
+          <option value="Caíco">Caíco</option>
+          <option value="Santa Cruz"></option>
+          <option value="Touros"></option>
+          <option value="Apodi"></option>
+          <option value="Assu"></option>
+          <option value="Extremoz"></option>
+
+        </datalist>
+      </p>
+    </fieldset>
+
+    <p>
+      <label for="imensg">Mensagens: </label> <br>
+      <textarea name="msg" id="ismesg" cols="90" rows="5"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+
+  </form>
   
 </body>
 </html>
