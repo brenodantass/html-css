@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Confifurações gerais */
+/* Versão Mobile*/
 
 *{
   margin: 0px;
@@ -8,16 +8,36 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-html, body{
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(47, 103, 192, 0.378); 
-  background-repeat: no-repeat;
-  background-size: contain;
-  
+html{
+  height: 100%;
 }
 
-h1{
-  color: white;
-  padding: 10px;
+body{
+  background-image: url(../imagens/back-phone.jpg);
+  background-size: cover;
+  background-position: center center;
 }
+
+main{
+  background-color: rgba(255, 255, 255, 0.353);
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+main h1{
+  padding: 10px;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+img#pc{ display: none;}
+img#phone{ display: block;  }
+img#print{ display: none; }
+img#tablet{ display: none; }
+img#tv{ display: none; }
