@@ -1,0 +1,36 @@
+@charset "UTF-8" ;
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1, h2, p{
+    padding: 10px;
+    text-align: justify;
+}
+
+section, header{
+  padding: 10px;
+}
+
+section.flex-content{
+  background-color: lightgrey;
+}
+
+article.text-media{
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap-reverse ;
+  
+}
+
+article.media-text{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
